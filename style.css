@@ -8,6 +8,7 @@
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 body {
@@ -45,6 +46,7 @@ body {
     background: #111;
     color: #eee;
     height: 80px;
+    position: fixed;
 }
 
 #navbar-container {
@@ -72,7 +74,7 @@ body {
 
 /* Showcase */
 #showcase {
-    height: 95vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
